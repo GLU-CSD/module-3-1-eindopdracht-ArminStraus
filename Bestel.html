@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Metal Merch Store</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+</head>
+
+<body>
+  <div id="content">
+    <header>
+      <div class="bovenbalk">
+        <div class="top-left">
+          <label for="language">Taal:</label>
+          <select id="language">
+            <option value="nl">Nederlands</option>
+            <option value="de">Duits</option>
+            <option value="fr">Frans</option>
+            <option value="es">Spaans</option>
+          </select>
+        </div>
+        <div class="top-right">
+          <a href="index.html">Home</a> |
+          <a href="#">Mijn account</a> |
+          <a href="#">Afrekenen</a> |
+          <a href="#">Uitloggen</a>
+        </div>
+      </div>
+      <div class="onderbalk">Welkom de bij Metal Vinyl Store</div>
+    </header>
+
+    <body>
+      <form class="formulier" id="myForm" onsubmit="return validateForm()">
+        <div class="row">
+            <input type="checkbox" name="voorwaarden">
+            Dhr.
+            <input type="checkbox" name="voorwaarden">
+            Mvr.
+            <input type="checkbox" name="voorwaarden">
+            Anders.
+        </div>
+        <div class="row">
+            <input type="text" placeholder="Voornaam" name="fname" required>
+            <input type="text" placeholder="Tussenvoegsel" name="tussenvoegsel">
+            <input type="text" placeholder="Achternaam" name="lname" required>
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Postcode" name="postcode">
+
+        </div>
+        <div class="row">
+            <input type="text" placeholder="Huisnummer" name="huisnummer">
+            <input type="text" placeholder="Straatnaam" name="straat" required>
+        </div>
+        <div class="row">
+            <input type="text" placeholder="Plaats" name="land" required>
+        </div>
+        <div class="row">
+            <input type="email" placeholder="Emailadres" name="email" required>
+            <input type="number" placeholder="Telefoonnummer" name="telefoon" required>
+        </div>
+        <div class="row">
+            <input type="date" placeholder="Geboortedatum" name="geboortedatum" required>
+        </div>
+        <label>
+            <input type="checkbox" name="voorwaarden" required>
+            Ik accepteer de algemene voorwaarden
+        </label>
+        <button type="submit">Verzenden</button>
+    </form>
+</main>
+    </body>
+
+    <footer>
+
+      <div class="Klantenservice">
+        <p id="klantenservice_main">Klantenservice.</p>
+        <P>- Paswoord vergeten.</p>
+        <P>- Veilige betaling.</p>
+        <P>- levering </p>
+        <p>- Annuleren, retourneren en ruilen.</p>
+      </div>
+
+      <div class="OverOns">
+        <p id="OverOns_main">Over ons.</p>
+        <P>- Over ons.</p>
+        <P>- Contact informatie.</p>
+        <P>- Algemenevoorwaarden </p>
+        <p>- Privacy beleid.</p>
+      </div>
+
+      <div class="VeiligBetalen">
+        <p id="VeiligBetalen_main">Veilig betalen!</p>
+        <P>Betaal in alle Veiligheid met onze partners. </p>
+
+      </div>
+
+      <p id="Copywrite">&copy;Made by Armin S. Alle rechten voorbehouden.</p>
+
+
+  </div>
+  </footer>
